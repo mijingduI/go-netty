@@ -18,7 +18,9 @@ package netty
 
 import (
 	"context"
+	"math/rand"
 	"sync/atomic"
+	"time"
 
 	"github.com/go-netty/go-netty/transport"
 )
@@ -59,9 +61,10 @@ type (
 
 // SequenceID to generate a sequence id
 func SequenceID() ChannelIDFactory {
+	rand.Seed(time.Now().UnixNano())
 	var id int64
 	return func() int64 {
-		return atomic.AddInt64(&id, 1)
+		return atomic.AddInt64(&id, rand.Int63())
 	}
 }
 
