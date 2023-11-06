@@ -18,11 +18,11 @@ package xhttp
 
 import (
 	"fmt"
-	"github.com/go-netty/go-netty/utils"
+	"github.com/mijingduI/go-netty/utils"
 	"net/http"
 
-	"github.com/go-netty/go-netty"
-	"github.com/go-netty/go-netty/codec"
+	"github.com/mijingduI/go-netty"
+	"github.com/mijingduI/go-netty/codec"
 )
 
 // ClientCodec create a http client codec

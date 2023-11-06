@@ -3,7 +3,7 @@
 
 package pbytes
 
-import "github.com/go-netty/go-netty/utils/pool"
+import "github.com/mijingduI/go-netty/utils/pool"
 
 // Pool contains logic of reusing byte slices of various size.
 type Pool struct {

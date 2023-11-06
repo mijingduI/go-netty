@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
-	"github.com/go-netty/go-netty"
-	"github.com/go-netty/go-netty/utils"
+	"github.com/mijingduI/go-netty"
+	"github.com/mijingduI/go-netty/utils"
 	"strings"
 	"testing"
 )

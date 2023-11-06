@@ -3,7 +3,7 @@ package pool
 import (
 	"sync"
 
-	"github.com/go-netty/go-netty/utils/pool/internal/pmath"
+	"github.com/mijingduI/go-netty/utils/pool/internal/pmath"
 )
 
 // Pool contains logic of reusing objects distinguishable by size in generic

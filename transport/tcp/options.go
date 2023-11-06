@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/go-netty/go-netty/transport"
+	"github.com/mijingduI/go-netty/transport"
 )
 
 // DefaultOption default tcp options

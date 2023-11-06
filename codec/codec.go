@@ -16,7 +16,7 @@
 
 package codec
 
-import "github.com/go-netty/go-netty"
+import "github.com/mijingduI/go-netty"
 
 // Codec defines an CodecHandler alias
 type Codec = netty.CodecHandler

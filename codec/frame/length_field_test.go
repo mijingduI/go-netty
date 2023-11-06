@@ -19,10 +19,10 @@ package frame
 import (
 	"bytes"
 	"encoding/binary"
-	"github.com/go-netty/go-netty/utils"
+	"github.com/mijingduI/go-netty/utils"
 	"testing"
 
-	"github.com/go-netty/go-netty"
+	"github.com/mijingduI/go-netty"
 )
 
 func TestLengthFieldCodec(t *testing.T) {

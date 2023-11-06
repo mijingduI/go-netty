@@ -22,7 +22,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/go-netty/go-netty/transport"
+	"github.com/mijingduI/go-netty/transport"
 )
 
 type (

@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/go-netty/go-netty/transport"
-	"github.com/go-netty/go-netty/transport/tcp"
+	"github.com/mijingduI/go-netty/transport"
+	"github.com/mijingduI/go-netty/transport/tcp"
 )
 
 // ErrServerClosed is returned by the Server call Shutdown or Close.

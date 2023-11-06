@@ -4,14 +4,14 @@
 
 <!--[![Downloads][7]][8]-->
 
-[1]: https://godoc.org/github.com/go-netty/go-netty?status.svg
-[2]: https://godoc.org/github.com/go-netty/go-netty
+[1]: https://godoc.org/github.com/mijingduI/go-netty?status.svg
+[2]: https://godoc.org/github.com/mijingduI/go-netty
 [3]: https://img.shields.io/badge/license-Apache%202-blue.svg
 [4]: LICENSE
-[5]: https://goreportcard.com/badge/github.com/go-netty/go-netty
-[6]: https://goreportcard.com/report/github.com/go-netty/go-netty
+[5]: https://goreportcard.com/badge/github.com/mijingduI/go-netty
+[6]: https://goreportcard.com/report/github.com/mijingduI/go-netty
 [7]: https://img.shields.io/github/downloads/go-netty/go-netty/total.svg?maxAge=1800
-[8]: https://github.com/go-netty/go-netty/releases
+[8]: https://github.com/mijingduI/go-netty/releases
 [9]: https://travis-ci.org/go-netty/go-netty.svg?branch=master
 [10]: https://travis-ci.org/go-netty/go-netty
 [11]: https://codecov.io/gh/go-netty/go-netty/branch/master/graph/badge.svg
@@ -23,21 +23,21 @@ go-netty 是一款受netty启发的Go语言可扩展的高性能网络库
 
 ## 特性
 
-* 可扩展多种传输协议，并且默认实现了 TCP, [UDP, QUIC, KCP, Websocket](https://github.com/go-netty/go-netty-transport)
+* 可扩展多种传输协议，并且默认实现了 TCP, [UDP, QUIC, KCP, Websocket](https://github.com/mijingduI/go-netty-transport)
 * 可扩展多种解码器，默认实现了常见的编解码器
 * 基于责任链模型的流程控制
 * 核心库零依赖
 
 ## 文档
-* [GoDoc](https://godoc.org/github.com/go-netty/go-netty)
+* [GoDoc](https://godoc.org/github.com/mijingduI/go-netty)
 
 ## 示例
 
-* [chat_server (基于websocket的聊天室)](https://github.com/go-netty/go-netty-samples/blob/master/chat_server/main.go)  
-* [file_server (基于http的文件浏览器)](https://github.com/go-netty/go-netty-samples/blob/master/file_server/main.go)  
-* [tcp_server (自义定tcp服务器)](https://github.com/go-netty/go-netty-samples/blob/master/tcp_server/main.go)  
-* [redis_cli (简单的redis客户端)](https://github.com/go-netty/go-netty-samples/blob/master/redis_cli/main.go)
-* [go-netty-samples (更多例子)](https://github.com/go-netty/go-netty-samples)  
+* [chat_server (基于websocket的聊天室)](https://github.com/mijingduI/go-netty-samples/blob/master/chat_server/main.go)  
+* [file_server (基于http的文件浏览器)](https://github.com/mijingduI/go-netty-samples/blob/master/file_server/main.go)  
+* [tcp_server (自义定tcp服务器)](https://github.com/mijingduI/go-netty-samples/blob/master/tcp_server/main.go)  
+* [redis_cli (简单的redis客户端)](https://github.com/mijingduI/go-netty-samples/blob/master/redis_cli/main.go)
+* [go-netty-samples (更多例子)](https://github.com/mijingduI/go-netty-samples)  
 
 ## 快速开始
 ```go
@@ -47,9 +47,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-netty/go-netty"
-	"github.com/go-netty/go-netty/codec/format"
-	"github.com/go-netty/go-netty/codec/frame"
+	"github.com/mijingduI/go-netty"
+	"github.com/mijingduI/go-netty/codec/format"
+	"github.com/mijingduI/go-netty/codec/frame"
 )
 
 func main() {

@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-netty/go-netty"
+	"github.com/mijingduI/go-netty"
 )
 
 func TestServerCodec(t *testing.T) {

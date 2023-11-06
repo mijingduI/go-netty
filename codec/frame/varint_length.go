@@ -18,9 +18,9 @@ package frame
 
 import (
 	"encoding/binary"
-	"github.com/go-netty/go-netty"
-	"github.com/go-netty/go-netty/codec"
-	"github.com/go-netty/go-netty/utils"
+	"github.com/mijingduI/go-netty"
+	"github.com/mijingduI/go-netty/codec"
+	"github.com/mijingduI/go-netty/utils"
 	"io"
 )
 

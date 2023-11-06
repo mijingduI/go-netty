@@ -4,14 +4,14 @@
 
 <!--[![Downloads][7]][8]-->
 
-[1]: https://godoc.org/github.com/go-netty/go-netty?status.svg
-[2]: https://godoc.org/github.com/go-netty/go-netty
+[1]: https://godoc.org/github.com/mijingduI/go-netty?status.svg
+[2]: https://godoc.org/github.com/mijingduI/go-netty
 [3]: https://img.shields.io/badge/license-Apache%202-blue.svg
 [4]: LICENSE
-[5]: https://goreportcard.com/badge/github.com/go-netty/go-netty
-[6]: https://goreportcard.com/report/github.com/go-netty/go-netty
+[5]: https://goreportcard.com/badge/github.com/mijingduI/go-netty
+[6]: https://goreportcard.com/report/github.com/mijingduI/go-netty
 [7]: https://img.shields.io/github/downloads/go-netty/go-netty/total.svg?maxAge=1800
-[8]: https://github.com/go-netty/go-netty/releases
+[8]: https://github.com/mijingduI/go-netty/releases
 [9]: https://travis-ci.org/go-netty/go-netty.svg?branch=master
 [10]: https://travis-ci.org/go-netty/go-netty
 [11]: https://codecov.io/gh/go-netty/go-netty/branch/master/graph/badge.svg
@@ -26,21 +26,21 @@ go-netty is heavily inspired by [netty](https://github.com/netty/netty)
 
 ## Feature
 
-* Extensible transport support, default support TCP, [UDP, QUIC, KCP, Websocket](https://github.com/go-netty/go-netty-transport)
+* Extensible transport support, default support TCP, [UDP, QUIC, KCP, Websocket](https://github.com/mijingduI/go-netty-transport)
 * Extensible codec support
 * Based on responsibility chain model
 * Zero-dependency
 
 ## Documentation
-* [GoDoc](https://godoc.org/github.com/go-netty/go-netty)
+* [GoDoc](https://godoc.org/github.com/mijingduI/go-netty)
 
 ## Examples
 
-* [chat_server](https://github.com/go-netty/go-netty-samples/blob/master/chat_server/main.go)  
-* [file_server](https://github.com/go-netty/go-netty-samples/blob/master/file_server/main.go)  
-* [tcp_server](https://github.com/go-netty/go-netty-samples/blob/master/tcp_server/main.go)  
-* [redis_cli](https://github.com/go-netty/go-netty-samples/blob/master/redis_cli/main.go)
-* [go-netty-samples](https://github.com/go-netty/go-netty-samples)  
+* [chat_server](https://github.com/mijingduI/go-netty-samples/blob/master/chat_server/main.go)  
+* [file_server](https://github.com/mijingduI/go-netty-samples/blob/master/file_server/main.go)  
+* [tcp_server](https://github.com/mijingduI/go-netty-samples/blob/master/tcp_server/main.go)  
+* [redis_cli](https://github.com/mijingduI/go-netty-samples/blob/master/redis_cli/main.go)
+* [go-netty-samples](https://github.com/mijingduI/go-netty-samples)  
 
 ## Quick Start
 ```go
@@ -50,9 +50,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-netty/go-netty"
-	"github.com/go-netty/go-netty/codec/format"
-	"github.com/go-netty/go-netty/codec/frame"
+	"github.com/mijingduI/go-netty"
+	"github.com/mijingduI/go-netty/codec/format"
+	"github.com/mijingduI/go-netty/codec/frame"
 )
 
 func main() {

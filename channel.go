@@ -25,9 +25,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/go-netty/go-netty/transport"
-	"github.com/go-netty/go-netty/utils"
-	"github.com/go-netty/go-netty/utils/pool/pbytes"
+	"github.com/mijingduI/go-netty/transport"
+	"github.com/mijingduI/go-netty/utils"
+	"github.com/mijingduI/go-netty/utils/pool/pbytes"
 )
 
 // ErrAsyncNoSpace is returned when an write queue full if not writeForever flags.

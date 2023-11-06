@@ -19,7 +19,7 @@ package netty
 import (
 	"fmt"
 
-	"github.com/go-netty/go-netty/utils"
+	"github.com/mijingduI/go-netty/utils"
 )
 
 // Pipeline defines a message processing pipeline.
